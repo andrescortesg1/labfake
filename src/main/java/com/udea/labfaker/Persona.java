@@ -5,15 +5,25 @@ public class Persona {
     private String nombre;
     private String apellido;
     private String email;
+    public int edad;
 
     public Persona() {
     }
 
-    public Persona(int id, String nombre, String apellido, String email) {
+    public Persona(int id, String nombre, String apellido, String email, int edad) {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
         this.email = email;
+        this.edad = edad;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
     }
 
     public int getId() {
