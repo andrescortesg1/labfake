@@ -1,5 +1,9 @@
 [![CI/CD Pipeline](https://github.com/andrescortesg1/labfake/actions/workflows/build.yml/badge.svg)](https://github.com/andrescortesg1/labfake/actions/workflows/build.yml)
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=andrescortesg1_labfake&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=andrescortesg1_labfake)
+
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=andrescortesg1_labfake&metric=coverage)](https://sonarcloud.io/summary/new_code?id=andrescortesg1_labfake)
+
 Implementation of a Simple App with the next operations:
 
 * Get random nations
