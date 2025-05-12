@@ -136,7 +136,3 @@ jobs:
 
       - name: 🚀 Coveralls Coverage Report Submission
         run: mvn coveralls:report -DrepoToken=${{ COVERALLS_REPO_TOKEN }}
-
-      - name: 🧹 Cleanup Repository Token
-        if: ${{ always() }}
-        run: if [ -f "pom.xml.bak" ]; then mv pom.xml.bak pom.xml; fi
